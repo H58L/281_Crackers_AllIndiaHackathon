@@ -32,3 +32,23 @@
 
   </li>
 </ol>
+
+<h3><b>Technologies and Tools used</b></h3>
+<h4><b>Frontend:</b></h4>
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+</ol>
+<br><br>
+<h4><b>Backend:</b></h4>
+<ol>
+  <li>
+    Java Server Pages(JSP)
+  </li>
+  <li>MySQL</li>
+  <li>JDBC connectivity</li>
+</ol>
+<br><br>
+
+
