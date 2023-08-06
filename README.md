@@ -40,7 +40,7 @@
   <li>CSS</li>
   <li>Javascript</li>
 </ol>
-<br><br>
+<br>
 <h4><b>Backend:</b></h4>
 <ol>
   <li>
@@ -49,6 +49,11 @@
   <li>MySQL</li>
   <li>JDBC connectivity</li>
 </ol>
-<br><br>
+<br>
+<h4><b>Development Environments:</b></h4>
+<ol>
+  <li>Visual Studio Code</li>
+  <li>Eclipse</li>
+</ol>
 
 
