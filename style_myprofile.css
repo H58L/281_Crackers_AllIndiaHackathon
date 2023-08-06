@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body
+{
+    background-color: #7895CB;
+    margin: 0;
+            padding: 0;
+            height: 100%;
+}
+.skills
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    border: 0 ;
+    line-height: 1.5;
+    background-color: #4A55A2;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  th{
+    text-align:center;
+  }
+  
+  .fa
+  {
+    color:gray;
+  }
+  .checked {
+    color: #4A55A2;
+  }
+  td{
+    padding-left:200px;
+  }
+  tr{
+    padding-bottom: 200px;
+  }
+  .py-5
+  {
+    padding-bottom:0px;
+  }

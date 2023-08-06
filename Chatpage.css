@@ -1,0 +1,215 @@
+/* Basic styles for the chat page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+}
+
+header {
+    background-color: #000305;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    margin: 0;
+}
+.input-box input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.btnLogin-popup {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Chat container styles */
+.chat-container {
+    display: flex;
+    height: calc(100vh - 80px); 
+}
+
+.groups {
+    width: 25%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto; 
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.groups ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.groups li {
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.2s ease;
+    border-radius: 5px; /* Add border-radius to make the items visually appealing */
+}
+
+.groups li:hover {
+    background-color: #f0f0f0;
+}
+
+.messages {
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Add this to enable scrolling within the messages */
+}
+
+.group-name {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.message-box {
+    flex: 1;
+}
+
+.message {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.incoming {
+    background-color: #f0f0f0;
+}
+
+.outgoing {
+    background-color: #d1eafd;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-box button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.groups .group.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+h2 {
+    margin: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.chat-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.groups ul {
+    margin: 0;
+    padding: 0;
+}
+
+.group-name {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.message-box {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-box {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-box input,
+.input-box button {
+    outline: none;
+}
+
+.input-box input::placeholder {
+    color: #ccc;
+}
+
+.input-box button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.input-box button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+    background: linear-gradient(135deg, #4A55A2, #7895CB, #A0BFE0, #C5DFF8);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'REM', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+header {
+    background-color: #4A55A2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adjust top and bottom padding */
+}
+
+.header-logo img {
+    margin: 0; /* Remove margin to touch the ends */
+    padding: 10px 0; /* Add padding to the logo */
+}
+
+.nav-pills .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.grid-container {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-elements {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 200px 200px;
+    gap: 80px;
+}
+
+.element {
+    background-color: #A0BFE0;
+ /* background: rgba(160, 191, 224, 0.8); */
+    
+    text-align: center;
+    padding: 90px;
+    border: 5px solid #4A55A2;
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 910;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-size: 19px;
+}
+
+.element:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #4A55A2;
+    text-decoration: none;
+}
+
+.logout-button {
+    color: #4A55A2;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    color: white;
+    background-color: #4A55A2;
+}

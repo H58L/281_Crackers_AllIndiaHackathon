@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flexbox;
+    background-color: #7895CB;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+
+}
+
+.search {
+    float: right;
+    margin-top: 25px;
+}
+
+.right {
+    background: #C5DFF8;
+    border: 1px solid;
+    transition: all 0.25s;
+    float: right;
+    padding: 1.5em 2.5em;
+    font-size: 10px;
+
+}
+
+.nav-btn {
+    background: none;
+    color: white;
+    padding: 1.0em 1.5em;
+    margin:10px;
+}
+
+.right:hover {
+    color: green;
+    border-color: #C5DFF8;
+    box-shadow: 0em 0.5em 0.5em -0.3em #47ff33;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.navigation {
+    float: right;
+}
+
+header {
+    margin-top: 0;
+    margin-left: -50px;
+    margin-right: -50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.Logo {
+    margin-left: 50px;
+}
+
+.joined {
+    color: green;
+    /* Change this to the desired color for the text after joining */
+}
