@@ -13,3 +13,22 @@
    <li>Lisa Susheel,frontend developer</li>
    <li>Vishakha frontend developer</li>
  </ol>
+
+<br><br>
+<h3><b>Key Features</b></h3>
+<ol>
+  <li>
+    College Communities: The website has communities based on college. This feature allows students of other colleges to connect, engage in discussions, and form meaningful connections.
+  </li>
+  <li>
+    Resource and Book Sharing Forum: The platform features a dedicated forum where students can share recommended textbooks, lecture notes, research papers, and other study materials. Senior students can contribute their knowledge and learning materials, supporting junior students in accessing valuable resources for their coursework.
+  </li>
+  <li>
+    Private Chat: Students will be able to privately chat with seniors or peers, fostering mentorship opportunities and forming groups based on common interest.
+
+  </li>
+  <li>
+    User Profiles: Each user will have a profile showcasing their majors, interests, and areas of expertise, helping others to connect with like-minded individuals.
+
+  </li>
+</ol>
